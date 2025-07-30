@@ -10,7 +10,7 @@ const App = () => {
   const [searchTerm, setSearchTerm] = useState('');
   
   // Configuration de l'API
-  const API_BASE_URL = 'http://127.0.0.1:8000/api';
+  const API_BASE_URL = 'https://h24code-api.onrender.com/api';
 
   // Styles avec responsive amélioré
   const styles = {

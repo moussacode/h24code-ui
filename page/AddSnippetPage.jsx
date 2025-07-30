@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 
 const AddSnippetPage = () => {
   const navigate = useNavigate()
-  const API_BASE_URL = 'http://127.0.0.1:8000/api'
+  const API_BASE_URL = 'https://h24code-api.onrender.com/api'
 
   const [formData, setFormData] = useState({
     title: '',

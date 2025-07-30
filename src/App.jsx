@@ -498,12 +498,15 @@ const App = () => {
 
       {/* Hero Section */}
       <section style={styles.hero}>
-        <h1 style={styles.heroTitle}>
-          Partage ton Code 
-        </h1>
-        <p style={styles.heroSubtitle}>
-          Une collection de code partagés gratuitement par la communauté.
-        </p>
+      <h1 style={styles.heroTitle}> 
+  Partage ton Code 
+</h1>
+<p style={styles.heroSubtitle}>
+ 
+  Développé avec React et Laravel, déployé sur Vercel (frontend) et Render (backend).<br />
+  ⚠️ Note : Si le serveur ne répond pas immédiatement, merci de patienter une minute. La version gratuite Render met un peu de temps à démarrer.
+</p>
+
         
         <div style={styles.searchBar}>
           <input
